@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // Configuración de opciones del compilador TypeScript
+    "target": "ES2015",// Indica que el código TypeScript se compilará a JavaScript compatible con la versión ES2015 (ES6)
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
